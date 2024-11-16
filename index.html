@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="todo-container">
+    <div class="yellow-section"></div>
+    <h1 class="lst">To-Do List</h1>
+    <div class="todo-input-container">
+        <button class="sort-button">
+            <img src="pictures/down.jpg.jpg" alt="Sort Icon" class="sort-icon" width="25px" height="15px">
+        </button>
+        <input type="text" id="todo-input" class="todo-input" placeholder="Add a task...">
+        <button class="clear-button">X</button>
+    </div>
+    <ul class="task-list" id="todo-list">
+    </ul>
+    <div class="button-container">
+        <button class="add-button">
+            <span class="plus-icon">+</span>
+            <span class="plus-info">Добавить</span>
+        </button>
+    </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
